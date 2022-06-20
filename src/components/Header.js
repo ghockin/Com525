@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './app.css';
+import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 const Header = () => {
     return (
