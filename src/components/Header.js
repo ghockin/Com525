@@ -1,19 +1,25 @@
 import React from 'react';
 import './app.css';
-import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import {Link } from 'react-router-dom';
 
 const Header = () => {
     return (
         <nav>
             <ul class="no-bullets">
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/LoginForm"><h1>Login Form</h1></Link>
                 </li>
                 <li>
-                    <Link to="/week-1">Week1</Link>
+                    <Link to="/NavigationBar"><h1>Navigation Bar</h1></Link>
                 </li>
                 <li>
-                    <Link to="/week-2">Week2</Link>
+                    <Link to="/Notification"><h1>Notifcation</h1></Link>
+                </li>
+                <li>
+                    <Link to="/Checkbox"><h1>Checkbox</h1></Link>
+                </li>
+                <li>
+                    <Link to="/Popup"><h1>Popup</h1></Link>
                 </li>
             </ul>
         </nav>
