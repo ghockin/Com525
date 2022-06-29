@@ -1,0 +1,27 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.title h1{
+  color: black;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.subTitle h2{
+  color: black;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#logo{ 
+	position:fixed; 
+	top:0; 
+	left:0; 
+} 

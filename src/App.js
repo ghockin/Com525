@@ -1,12 +1,12 @@
 import React from 'react';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
-import HomePage from '../src/components/home/home';
+import HomePage from './components/home/Home';
 //Components
 import LoginForm from './components/LoginForm/LoginForm';
-import NavigationBar from './components/NavigationBar/NavigationBar';
-import Notification from './components/Notification/Notification';
+import ImageSlider from './components/ImageSlider/ImageSlider';
 import Checkbox from './components/Checkbox/Checkbox';
 import Popup from './components/Popup/Popup';
+import NavBarDocs from './components/NavigationBar/NavBarDoc';
 
 
 function App() {
@@ -14,8 +14,8 @@ function App() {
     <Router>
         <Routes>
           <Route path="/LoginForm" element={<LoginForm />} />
-          <Route path="/NavigationBar" element={<NavigationBar />} />
-          <Route path="/Notification" element={<Notification />} />
+          <Route path="/NavBarDocs" element={<NavBarDocs />} />
+          <Route path="/ImageSlider" element={<ImageSlider />} />
           <Route path="/Checkbox" element={<Checkbox />} />
           <Route path="/Popup" element={<Popup />} />
           <Route path="/" element={<HomePage />} />
