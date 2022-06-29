@@ -24,7 +24,7 @@ function Navbar() {
         <LeftContainer>
           <NavbarLinkContainer>
             <NavbarLink to="/"> Home</NavbarLink>
-            <NavbarLink to="/LoginForm"> Login Form</NavbarLink>
+            <NavbarLink to="/LoginFormApp"> Login Form</NavbarLink>
             <NavbarLink to="/Checkbox"> Checkbox</NavbarLink>
             <NavbarLink to="/ImageSlider"> Image Slider</NavbarLink>
             <NavbarLink to="/NavBarDoc"> Navigation Bar</NavbarLink>

@@ -2,7 +2,7 @@ import React from 'react';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './components/home/Home';
 //Components
-import LoginForm from './components/LoginForm/LoginForm';
+import LoginFormApp from './components/LoginForm/LoginFormApp';
 import ImageSlider from './components/ImageSlider/ImageSlider';
 import Checkbox from './components/Checkbox/Checkbox';
 import Popup from './components/Popup/Popup';
@@ -14,7 +14,7 @@ function App() {
     <Router>
       <NavigationBar />
         <Routes>
-          <Route path="/LoginForm" element={<LoginForm />} />
+          <Route path="/LoginFormApp" element={<LoginFormApp />} />
           <Route path="/NavBarDoc" element={<NavBarDocs />} />
           <Route path="/ImageSlider" element={<ImageSlider />} />
           <Route path="/Checkbox" element={<Checkbox />} />
