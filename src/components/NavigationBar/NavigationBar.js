@@ -12,7 +12,7 @@ import {
   NavbarLinkExtended,
 } from "./NavBar.style";
 
-import LogoImage from '../logo.png'
+import LogoImage from '../GHlogo.png'
 
 
 function Navbar() {
