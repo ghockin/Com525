@@ -7,14 +7,15 @@ import ImageSlider from './components/ImageSlider/ImageSlider';
 import Checkbox from './components/Checkbox/Checkbox';
 import Popup from './components/Popup/Popup';
 import NavBarDocs from './components/NavigationBar/NavBarDoc';
-
+import NavigationBar from './components/NavigationBar/NavigationBar';
 
 function App() {
   return (
     <Router>
+      <NavigationBar />
         <Routes>
           <Route path="/LoginForm" element={<LoginForm />} />
-          <Route path="/NavBarDocs" element={<NavBarDocs />} />
+          <Route path="/NavBarDoc" element={<NavBarDocs />} />
           <Route path="/ImageSlider" element={<ImageSlider />} />
           <Route path="/Checkbox" element={<Checkbox />} />
           <Route path="/Popup" element={<Popup />} />

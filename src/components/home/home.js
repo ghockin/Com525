@@ -1,17 +1,10 @@
 import React from "react";
-import NavigationBar from "../NavigationBar/NavigationBar";
-import './home.css'
-import logo from '../logo.png'
+import './home.css';
 
 const Home = () => {
   return (
     <div className="App">
-      <header><h1 id="title">Interaction Design Components</h1> <h2 id="subTitle">By Gabe Hockin</h2></header>
-
-      <div id="logo">
-        <img src={logo} alt="Logo" />
-      </div>
-      <NavigationBar />
+      <header><h1 id="title">Interaction Design Components</h1> <h2 id="subTitle">Gabe Hockin</h2></header>
     </div>
   );
 }

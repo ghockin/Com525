@@ -1,8 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import '../Popup/Popup.css';
-import logo from '../logo.png';
-import NavigationBar from "../NavigationBar/NavigationBar";
 
 function Modal({ closeModal }) {
   return (
@@ -31,10 +29,7 @@ function Popup() {
 
   return (
     <div className="App">
-     <header><h1 id="title">Interaction Design Components</h1> <h2 id="subTitle">By Gabe Hockin</h2></header>
-     <div id="logo">
-        <img src={logo} alt="Logo" />
-      </div>
+      <header><h1 id="title">Interaction Design Components</h1> <h2 id="subTitle">Modal</h2></header>
       <button className="openModalBtn" onClick={() => {
         setOpenModal(true);
       }}
@@ -42,7 +37,6 @@ function Popup() {
         Open
       </button>
       {openModal && <Modal closeModal={setOpenModal} />}
-      <NavigationBar />
     </div>
   );
 }
