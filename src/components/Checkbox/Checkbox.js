@@ -14,9 +14,6 @@ function Checkbox() {
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div className="App" id={theme}>
-        <header className="App-header">
-          <header><h1 id="title">Interaction Design Components</h1> <h2 id="subTitle">Checkbox</h2></header>
-        </header>
         <div className='switch'>
           <label>{theme === "light" ? "Light Mode" : "Dark Mode"}</label>
           <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />

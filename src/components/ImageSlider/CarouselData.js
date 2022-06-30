@@ -1,6 +1,6 @@
-import Picture1 from '../images/picture1.jpeg';
-import Picture2 from '../images/picture2.jpeg';
-import Picture3 from '../images/picture3.jpeg';
+import Picture1 from '../images/cover.png';
+import Picture2 from '../images/cover2.png';
+import Picture3 from '../images/cover3.png';
 
 export const images = [
     {

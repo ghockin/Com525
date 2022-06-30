@@ -29,7 +29,6 @@ function Popup() {
 
   return (
     <div className="App">
-      <header><h1 id="title">Interaction Design Components</h1> <h2 id="subTitle">Modal</h2></header>
       <button className="openModalBtn" onClick={() => {
         setOpenModal(true);
       }}

@@ -15,7 +15,7 @@ function LoginFormApp() {
   const Login = details => {
     console.log(details);
 
-    if (details.email == adminUser.email && details.password == adminUser.password) {
+    if (details.email === adminUser.email && details.password === adminUser.password) {
       console.log("Logged in");
       setUser({
         name: details.name,
@@ -32,8 +32,7 @@ function LoginFormApp() {
 
   return (
     <div className="App">
-      <header><h1 id="title">Interaction Design Components</h1> <h2 id="subTitle">Login Form</h2></header>
-      {(user.email != "") ? (
+      {(user.email !== "") ? (
         <div className="welcome">
           <h2>Welcome, <span>{user.name}</span></h2>
           <button onClick={Logout}>Logout</button>

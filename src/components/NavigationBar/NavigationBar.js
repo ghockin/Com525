@@ -26,8 +26,7 @@ function Navbar() {
             <NavbarLink to="/"> Home</NavbarLink>
             <NavbarLink to="/LoginFormApp"> Login Form</NavbarLink>
             <NavbarLink to="/Checkbox"> Checkbox</NavbarLink>
-            <NavbarLink to="/ImageSlider"> Image Slider</NavbarLink>
-            <NavbarLink to="/NavBarDoc"> Navigation Bar</NavbarLink>
+            <NavbarLink to="/Carousel"> Image Slider</NavbarLink>
             <NavbarLink to="/Popup"> Modal</NavbarLink>
             <OpenLinksButton
               onClick={() => {
@@ -47,8 +46,7 @@ function Navbar() {
           <NavbarLinkExtended to="/"> Home</NavbarLinkExtended>
           <NavbarLinkExtended to="/LoginForm"> Login Form</NavbarLinkExtended>
           <NavbarLinkExtended to="/Checkbox"> Checkbox</NavbarLinkExtended>
-          <NavbarLinkExtended to="/ImageSlider"> Image Slider</NavbarLinkExtended>
-          <NavbarLinkExtended to="/NavBarDoc"> Navigation Bar</NavbarLinkExtended>
+          <NavbarLinkExtended to="/Carousel"> Image Slider</NavbarLinkExtended>
           <NavbarLinkExtended to="/Popup"> Modal</NavbarLinkExtended>
         </NavbarExtendedContainer>
       )}

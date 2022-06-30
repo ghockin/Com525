@@ -4,7 +4,7 @@ import './home.css';
 const Home = () => {
   return (
     <div className="App">
-      <header><h1 id="title">Interaction Design Components</h1> <h2 id="subTitle">Gabe Hockin</h2></header>
+      <header><h1>Interaction Design Components</h1> <h2>Gabe Hockin</h2></header>
     </div>
   );
 }
