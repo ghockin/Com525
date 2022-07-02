@@ -1,3 +1,5 @@
+/* Copyright 2022, Gabriel Hockin, All rights reserved. */
+
 import React from "react";
 import './home.css';
 

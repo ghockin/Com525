@@ -1,5 +1,8 @@
+/* Copyright 2022, Gabriel Hockin, All rights reserved. */
+
 import React, { useState } from 'react';
 import './LoginForm.css';
+import '../images/cover.png'
 
 function LoginForm({ Login, error }) {
 
@@ -14,7 +17,11 @@ function LoginForm({ Login, error }) {
     return (
         <form onSubmit={sumbitHandler}>
             <div className='form-inner'>
-                <h2>Login</h2>
+                <h2>LOGIN</h2>
+                <div className='profile'>
+                    
+                </div>
+
                 {(error !== "") ? (<div className='error'>{error}</div>) : ""}
                 <div className="form-group">
                     <label htmlFor="name" id="name">Name</label>

@@ -1,3 +1,5 @@
+/* Copyright 2022, Gabriel Hockin, All rights reserved. */
+
 *{
     margin: 0;
     padding: 0;
@@ -17,7 +19,7 @@ input, button {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #53565A;
+    background-color: cornflowerblue;
 }
 
 form{
@@ -46,7 +48,7 @@ form .form-inner{
 }
 
 form .form-inner h2{
-    color:#888;
+    color:black;
     font-size: 28px;
     font-weight: 500;
     margin-bottom: 30px;
@@ -60,7 +62,7 @@ form .form-inner .form-group{
 
 .form-inner .form-group label {
     display: block;
-    color: #666;
+    color: black;
     font-size: 12px;
     margin-bottom: 5px;
     transition: 0.4s;
@@ -74,7 +76,7 @@ form .form-inner .form-group input {
     display: block;
     width: 100%;
     padding: 10px 15px;
-    background-color: #f8f8f8;
+    background-color: cornflowerblue;
     border-radius: 8px;
     transition: 0.4s;
 }
@@ -92,7 +94,7 @@ form .form-inner input[type="submit"],
     background-size: 200%;
     background-position: 0%;
     transition: 0.4s;
-    color: #fff;
+    color: black;
     font-weight: 700;
     cursor: pointer;
 }
@@ -110,7 +112,7 @@ form .form-inner input[type=submit]:hover ,
 }
 
 .welcome h2 {
-    color: #888;
+    color: black;
     font-size: 28px;
     font-weight: 500;
     margin-bottom: 30px;

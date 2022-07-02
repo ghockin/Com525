@@ -1,3 +1,5 @@
+/* Copyright 2022, Gabriel Hockin, All rights reserved. */
+
 import React, { useState } from "react";
 import LoginForm from "./LoginForm";
 

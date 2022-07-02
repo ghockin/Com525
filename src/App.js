@@ -1,3 +1,5 @@
+/* Copyright 2022, Gabriel Hockin, All rights reserved. */
+
 import React from 'react';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './components/home/Home';

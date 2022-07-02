@@ -1,3 +1,5 @@
+/* Copyright 2022, Gabriel Hockin, All rights reserved. */
+
 import React from "react";
 import { useState } from "react";
 import '../Popup/Popup.css';

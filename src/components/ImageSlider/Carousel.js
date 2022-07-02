@@ -1,3 +1,5 @@
+/* Copyright 2022, Gabriel Hockin, All rights reserved. */
+
 import React, { useState } from 'react'
 import './Carousel.css'
 import { images } from './CarouselData';
@@ -24,7 +26,6 @@ function Carousel() {
                     </div>
                     <div className="center">
                         <h1>{images[currImg].title}</h1>
-                        <p>{images[currImg].subtitle}</p>
                     </div>
                     <div
                         className="right"

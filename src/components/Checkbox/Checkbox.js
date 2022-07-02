@@ -1,3 +1,5 @@
+/* Copyright 2022, Gabriel Hockin, All rights reserved. */
+
 import '../Checkbox/Checkbox.css'
 import React, { useState } from "react";
 import ReactSwitch from 'react-switch';
