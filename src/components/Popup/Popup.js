@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import '../Popup/Popup.css';
+import { Check } from "@material-ui/icons";
 
 function Modal({ closeModal }) {
   return (
@@ -9,15 +10,23 @@ function Modal({ closeModal }) {
         <div className="titleCloseBtn">
           <button onClick={() => closeModal(false)}>X</button>
         </div>
-        <div className="title"></div>
-        <h1>Are you sure you want to continue?</h1>
-        <div className="body"></div>
-        <p>
-          The next page is awesome!
-        </p>
+        <div className="title">
+          <h1>Improve Your Web Design Skills Today!</h1>
+        </div>
+        <div className="body">
+          <p>
+            Be the first to hear when new tutoirals are realesed. Subscribe to email notifications for Free!
+          </p>
+        </div>
+        <div className="email">
+          <input className="emailInput" type="text" placeholder="Email" />
+        </div>
         <div className="footer">
-          <button onClick={() => closeModal(false)} id="cancelBtn" >Cancel</button>
-          <button>Continue</button>
+          <button>Subscribe</button>
+        </div>
+        <div className="terms">
+          <p>I confirm that I have read and agree to Privacy Policy.</p>
+          <button><Check /></button>
         </div>
       </div>
     </div>
@@ -33,7 +42,7 @@ function Popup() {
         setOpenModal(true);
       }}
       >
-        Open
+        Hi there, click me to sign up.
       </button>
       {openModal && <Modal closeModal={setOpenModal} />}
     </div>

@@ -4,17 +4,18 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-family: "Nunito", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .App .openModalBtn {
-  width: 200px;
-  height: 40px;
+  width: 400px;
+  height: 80px;
   border: none;
   border-radius: 6px;
   background-color: cornflowerblue;
-  color: white;
+  color: black;
   cursor: pointer;
+  font-size: 20px;
 }
 
 
@@ -42,7 +43,6 @@
 .modalContainer .title {
   display: inline-block;
   text-align: center;
-  margin-top: 10px;
 }
 
 .titleCloseBtn {
@@ -62,8 +62,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   text-align: center;
+}
+
+.modalContainer .email {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer .email .emailInput{
+  width: 300px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: cornflowerblue;
+  color: black;
+  border-radius: 8px;
+  font-size: 15px;
+  padding-left: 5%;
 }
 
 .modalContainer .footer{
@@ -74,17 +93,33 @@
 }
 
 .modalContainer .footer button{
-  width: 150px;
+  width: 300px;
   height: 45px;
   margin: 10px;
   border: none;
-  background-color: blue;
-  color: white;
+  background-color: cornflowerblue;
+  color: black;
   border-radius: 8px;
   font-size: 20px;
   cursor: pointer;
 }
 
-#cancelBtn{
-  background-color: red;
+.modalContainer .terms {
+  flex: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
+  font-size: 12px;
+}
+
+.modalContainer .terms button{
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+  border: none;
+  background-color: cornflowerblue;
+  border-radius: 8px;
+  cursor: pointer;
 }
