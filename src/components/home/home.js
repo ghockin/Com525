@@ -3,6 +3,7 @@
 import React from "react";
 import './home.css';
 
+
 const Home = () => {
   return (
     <div className="home">
@@ -31,7 +32,11 @@ const Home = () => {
           </li>
           <li className="item">
             <h2>Prototype</h2>
-            <span>Completed Component</span>
+            <span>Completed Component
+              <div className="GifContainer">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/KOx20-xrq-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </span>
           </li>
         </ol>
       </div>
@@ -54,7 +59,11 @@ const Home = () => {
           </li>
           <li className="item">
             <h2>Prototype</h2>
-            <span>Completed Component</span>
+            <span>Completed Component
+              <div className="GifContainer">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/KOx20-xrq-Q?start=27" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </span>
           </li>
         </ol>
       </div>
@@ -77,7 +86,11 @@ const Home = () => {
           </li>
           <li className="item">
             <h2>Prototype</h2>
-            <span>Completed Component</span>
+            <span>Completed Component
+              <div className="GifContainer">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/KOx20-xrq-Q?start=37" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </span>
           </li>
         </ol>
       </div>
@@ -100,7 +113,11 @@ const Home = () => {
           </li>
           <li className="item">
             <h2>Prototype</h2>
-            <span>Completed Component</span>
+            <span>Completed Component
+              <div className="GifContainer">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/KOx20-xrq-Q?start=44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </span>
           </li>
         </ol>
       </div>
@@ -123,7 +140,12 @@ const Home = () => {
           </li>
           <li className="item">
             <h2>Prototype</h2>
-            <span>Completed Component</span>
+            <span>
+              Completed Component
+              <div className="GifContainer">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/KOx20-xrq-Q?start=55" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </span>
           </li>
         </ol>
       </div>

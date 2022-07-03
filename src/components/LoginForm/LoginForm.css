@@ -88,6 +88,7 @@ form .form-inner .form-group input:focus {
 form .form-inner input[type="submit"],
 .welcome button {
     display: inline-block;
+    width: 100%;
     padding: 10px 15px;
     border-radius: 8px;
     background-image: linear-gradient(to right, cornflowerblue 50%, cornflowerblue 50%, #FE4880);
