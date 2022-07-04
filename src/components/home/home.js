@@ -59,7 +59,7 @@ const Home = () => {
           <li className="item">
             <h2>Prototype</h2>
             <span>
-              When testing the Login Form, use Email: "admin@admin.com" Password: "admin123". To log in correctly.
+              When testing the Login Form, use Email: "admin@admin.com" Password: "admin123".
               <iframe width="560" height="315" src="https://www.youtube.com/embed/KOx20-xrq-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </span>
           </li>
