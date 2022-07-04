@@ -5,8 +5,8 @@ import './home.css';
 
 const Home = () => {
   return (
-    <div className="Home">
-      <div className="Title">
+    <div className="home">
+      <div className="title">
         <h2> Interaction Design</h2>
         <br />
         <br />
